@@ -1,6 +1,6 @@
 # 我的考试题
 
-[第1题]()
+[第1题](https://github.com/wangtongtong123/exam/blob/gh-pages/1%5Ball%5Djquery.html)
 [查看效果(jQuery)](https://wangtongtong123.github.io/exam/1[all]jquery.html)
 [查看效果(jQueryui)](https://wangtongtong123.github.io/exam/1[all]jqueryui.html)
 [查看效果(jQuerymobile)](https://wangtongtong123.github.io/exam/1[all]jquerymobile.html)
