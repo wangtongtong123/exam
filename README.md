@@ -13,7 +13,7 @@
 * [第5题](https://github.com/wangtongtong123/exam/blob/gh-pages/5[jquery-ui].html)
   [查看效果](https://wangtongtong123.github.io/exam/5[jquery-ui].html)
 * [第6题](https://github.com/wangtongtong123/exam/blob/gh-pages/6%5Bjquery%20-ui%5D.html)
-  [查看效果](https://wangtongtong123.github.io/exam/6[jquery-ui].html)
+  [查看效果](https://wangtongtong123.github.io/exam/6%5Bjquery%20-ui%5D.html)
 * [第7题](https://github.com/wangtongtong123/exam/blob/gh-pages/7[jquery ui].html)
   [查看效果](https://wangtongtong123.github.io/exam/7[jquery ui].html)
 * [第8题](https://github.com/wangtongtong123/exam/blob/gh-pages/8[jquery mobile].html)
