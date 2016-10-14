@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>对话框</title>
+    <script src="js/jquery-1.12.4.min.js"></script>
+    <script src="js/jquery-ui.min.js"></script>
+    <script type="text/javascript"></script>
+    <link rel="stylesheet" href="css/jquery-ui.min.css" type="text/css">
+    <script>
+        $(function () {
+            $('#dialog').dialog({
+                buttons:[{icons:{primary:"ui-icon-check"},text: "确定",click: function () {
+                $(this).dialog("close");
+            }},{icons:{primary:"ui-icon-close"},text:"取消",click:function () {
+                    $(this).dialog("close");
+                }}],
+                modal: true,
+                autoOpen: false
+            });
+            $('#btn').button().click(function () {
+                $('#dialog').dialog("open");
+            })
+        });
+    </script>
+    <style>
+        #dialog{color: red;}
+    </style>
+</head>
+<body>
+    <button id="btn">单击这里</button>
+    <hr>
+    <div id="dialog" title="警告">你确定要删除你所选择的文件吗？</div>
+</body>
+</html>

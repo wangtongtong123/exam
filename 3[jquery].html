@@ -1,0 +1,96 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>下拉菜单</title>
+    <script src="js/jquery-3.1.1.min.js" type="text/javascript"></script>
+    <script src="js/jquery-ui.min.js"></script>
+    <link rel="stylesheet" href="css/jquery-ui.min.css">
+    <script>
+        $(function () {
+            $('#add').accordion();
+        })
+    </script>
+    <style>
+        *{
+            margin: 0;
+            padding: 0;
+        }
+        .one{
+            background-color: lightblue;
+        }
+        .one {
+            border-color: lightblue;
+        }
+        .two{
+            background-color: lightblue;
+            width: 300px;
+            height: 400px;
+            text-align: center;
+        }
+        #add{
+            width: 250px;
+            background-color: lightblue;
+            margin: auto;
+        }
+        h3{
+            background-color: yellow;
+            box-shadow: 1px 1px 1px 1px black;
+        }
+        p{
+            color: white;
+            background-color: black;
+            height: 30px;
+            width: 200px;
+            cursor: pointer;
+            margin-top: 5px;
+        }
+    </style>
+    <script>
+        $(function () {
+            $('p').hover(function () {
+                $(this).css('background-color','orange');
+            });
+            $('p').mouseout(function () {
+                $(this).css('background-color','black');
+            })
+        })
+    </script>
+</head>
+<body>
+    <div class="two">
+        <div id="add">
+            <h3>AjaxShake</h3>
+            <div class="one">
+                <p>JQuery</p>
+                <p>Flash</p>
+                <p>Prototype</p>
+                <p>Mootools</p>
+            </div>
+            <h3>jsonP Examples</h3>
+            <div class="one">
+                <p>JQuery</p>
+                <p>Flash</p>
+                <p>Prototype</p>
+                <p>Mootools</p>
+            </div>
+            <h3>Friend Sites</h3>
+            <div class="one">
+                <p>JQuery</p>
+                <p>Flash</p>
+                <p>Prototype</p>
+                <p>Mootools</p>
+            </div>
+            <h3>Others</h3>
+            <div class="one">
+                <p>JQuery</p>
+                <p>Flash</p>
+                <p>Prototype</p>
+                <p>Mootools</p>
+            </div>
+        </div>
+    </div>
+
+</body>
+</html>

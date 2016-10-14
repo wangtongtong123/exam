@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="utf-8">
+    <title>jquery表格悬停</title>
+    <script src="http://code.jquery.com/jquery-latest.js"></script>
+  </head>
+  <body>
+    <script type="text/javascript">
+    $(document).ready(function(){
+    $("table tr td").mouseover(function(){
+    $(this).css("border","1px solid red");
+    });
+    $("table tr td").mouseout(function(){
+    $(this).css("border","none");
+    });
+    });
+    </script>
+    <style>
+    #box a{ display:block; z-index:1000; width:98px; height:98px;}
+    </style>
+    <div id="box" style="width:100px; height:100px;">
+     <table width="500" border="2">
+
+     <tr><td>姓名</td><td>年龄</td><td>班级</td></tr>
+     <tr><td>张三</td><td>18</td><td>5</td></tr>
+     <tr><td>张三</td><td>18</td><td>5</td></tr>
+     <tr><td>张三</td><td>18</td><td>5</td></tr>
+     <tr><td>张三</td><td>18</td><td>5</td></tr>
+     </table>
+     <script>
+        $(".other").css("border","1px solid red");
+     </script>
+     </body>
+     </html>
