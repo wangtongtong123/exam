@@ -26,3 +26,5 @@
   [查看效果](https://wangtongtong123.github.io/exam/10[jquery mobile].html)
 * [第11题](https://github.com/wangtongtong123/exam/blob/gh-pages/11[jquery mobile].html)
   [查看效果](https://wangtongtong123.github.io/exam/11[jquery mobile].html)
+* [微信](https://github.com/wangtongtong123/exam/blob/gh-pages/weixin.html)
+  [查看效果](https://wangtongtong123.github.io/exam/weixin.html)
